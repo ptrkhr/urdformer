@@ -1,6 +1,6 @@
 diffusers==0.14.0
 matplotlib==3.6.2
-numpy
+numpy<2
 scikit-image
 scipy
 tqdm==4.65.0
@@ -16,3 +16,7 @@ nltk==3.8.1
 chardet
 accelerate
 gdown
+hugginface_hub<=0.25.2
+mmcv<2.2.0
+torch<2.5
+torchvision
